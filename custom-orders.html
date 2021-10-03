@@ -1,0 +1,114 @@
+﻿<!-- Final Project by Kathryn Couto-Smith (Custom Orders)-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Artisan Timber Creations/Custom-Orders</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+     integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <meta name="author" content="Kathryn Couto-Smith">
+    <meta name="description" 
+     content="Order your custom-made furniture by submitting the attached form."> 
+
+ </head>
+
+  <body>
+    
+    <div class="container">  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/square-logo.png"  width="70" height="60" alt="Artisan Timber Creations logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="about-us.html">About Us</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gallery
+           </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="gallery.html#Coffee-Tables">Coffee Tables</a>
+           <a class="dropdown-item" href="gallery.html#Dining-Tables">Dining Tables</a>
+           <a class="dropdown-item" href="gallery.html#Occasional-Tables">Occasional Tables</a>
+           <a class="dropdown-item" href="gallery.html#Outdoor-Furniture">Outdoor Furniture</a>
+         <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="gallery.html#Featured">Featured</a>
+         </div>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="pricing.html">Pricing</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="custom-orders.html">Custom Orders</a>
+         </li>
+       </ul>
+     </div>
+    </nav>
+  </div>
+   
+<br>
+   <div class="container">
+     <div class="card text-white text-center bg-danger mb-3" style="max-width: 65rem; max-height: 60rem">
+         <h5 class="card-title">Custom Orders</h5>
+         <p class="card-text">Our design team would be more than happy to meet with you to help create that custom piece that fits your needs perfectly.</p>
+         <p class="card-text">To help us serve you better, please fill out the form below with the following information, 
+           and we will arrange an in-person meeting to discuss further.</p>
+         <p class="card-text">Please include the following information in your request, in the following order:</p>
+         <ol class="card-text">
+           <li>Your name</li>
+           <li>Your email address</li>
+           <li>What type of furniture you would like to have made</li>
+           <li>What is the general style you are looking for? (modern, vintage, or other)</li>
+           <li>What approximate size would you like the piece to be?</li>
+           <li>What is your top priority in making this piece? (style, price, approximate completion date)</li>
+           <li>What is your postal code</li>
+         </ol>
+       </div>
+     </div>
+  
+<div class="container"> 
+  <form action="/my-handling-form-page" method="post">
+    <div class="mb-3 bg-danger text-white">
+      <label for="name" class="form-label">Name:</label>
+      <input type="text" class="form-control" id="name" name="user_name" placeholder="Enter name">
+    </div>    
+    <div class="mb-3 bg-danger text-white">
+      <label for="mail" class="form-label">Email address:</label>
+      <input type="email" class="form-control" id="mail" name="user_email" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="mb-3 bg-danger text-white">
+      <label for="msg" class="form-label">Message:</label>
+      <textarea class="form-control" id="msg" rows="3" name="user_message" placeholder="Enter message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-danger">Submit</button>
+  </form>
+</div>
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" 
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" 
+      crossorigin="anonymous">
+    </script>
+    <script src="scripts/jquery-3.6.0.js">
+    </script>
+
+  </body>
+</html>
